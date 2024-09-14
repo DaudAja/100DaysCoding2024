@@ -8,7 +8,7 @@ public class Main {
             String nama = "daud";
             int umur = 20;
         //berguna untuk mencetak suatu codingan dengan parameter (format)
-        System.out.printf("Nama: %s, Umur: %d\n", nama, umur);
+        System.out.printf("Nama: %s, Umur: %d\n", nama, umur);    
         /*
         komentar multiline
         */

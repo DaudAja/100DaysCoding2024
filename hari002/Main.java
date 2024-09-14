@@ -10,7 +10,9 @@ public class Main {
         byte Umur = 20;
         String JenisKelamin = "laki-laki";
         String Agama = "Kristen Protestan";
-        //BigInteger adalah turunan dari kelas number dan termasuk dalam paket  java.math 
+        //BigInteger adalah turunan dari kelas number dan termasuk dalam paket  java.math
+        System.out.printf("Nama : %s %nAlamat : %s %nUmur : %d%n",Nama,Alamat,Umur);
+        System.out.println();
         BigInteger Nomor = new BigInteger("+6282317769585");
         String Hobi = "Badminton,ngedesain,ngedit video dll";
         System.out.println("Nama : " + Nama + "\nAlamat : " + Alamat

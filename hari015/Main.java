@@ -19,7 +19,7 @@ public class Main {
         System.out.printf("mencetak 2 angka di belakang koma = %.2f %n",angka_2);
         
         System.out.println("Angka 3 = "+ angka_3);
-        System.out.printf("mencetak 2 angka di belakang koma = %.3f %n",angka_3);
+        System.out.printf("mencetak 3 angka di belakang koma = %.3f %n",angka_3);
         
         
     }

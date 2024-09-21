@@ -4,24 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
         //deklarasi variabel
-        String nama, alamat;
+        String nama;
 
         //inisialisasi variabel
-        nama = "daud";
-        alamat = "mamasa";
+        nama = "daud buntu ma'dika";
 
-        //mencetak menggunakan method
-        cetak(nama, alamat);
-        ubahKeKapital(nama, alamat);
-    }
+        //membuat variabel untuk menampung
+        String[] kata = nama.split(" ");
 
-    public static void cetak(String input1, String input2) {
-        System.out.println("Nama saya   : " + input1);
-        System.out.println("Alamat saya : " + input2);
-    }
-
-    public static void ubahKeKapital(String input1, String input2) {
-        System.out.println("nama diubah kekapital   : " + input1.toUpperCase());
-        System.out.println("alamat diubah kekapital : " + input2.toUpperCase());
+        //mencetak
+        System.out.println("Nama depan\t: " + kata[0]);
+        System.out.println("Nama belakang\t: " + kata[1]);
+        System.out.println("Nama belakang\t: " + kata[2]);
+        System.out.println("Nama Lengkap\t: " + nama.toUpperCase());
     }
 }

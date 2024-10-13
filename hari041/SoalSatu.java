@@ -12,11 +12,10 @@ public class SoalSatu {
         System.out.print("Input satuan\t: ");
         String satuan = sc.nextLine();
 
-        System.out.println("==================HASIL==================");
+        System.out.println("==================HASIL===================");
         final float PI = 3.14159f;
 
         float keliling = 2 * PI * jari;
-        
         float luas = PI * (jari * jari);
 
         System.out.println("Jari-jari\t: " + jari + " " + satuan);

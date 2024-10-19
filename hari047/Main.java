@@ -5,7 +5,7 @@ public class Main {
         
         byte nilai = 50;
         
-        if(nilai > 30){
+        if(nilai > 60){
             System.out.println("ya,"+nilai+" lebih besar dari 30");
         }
     }

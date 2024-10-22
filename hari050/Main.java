@@ -16,8 +16,10 @@ public class Main {
 
         System.out.println("Nama\t: " + nama);
         System.out.println("Nilai\t: " + nilai);
-
-        if (nilai >= 90 && nilai <= 100) {
+        
+        if (nilai > 100) {
+            System.out.println("Melebihi nilai inputan");
+        } else if (nilai >= 90) {
             grade = 'A';
             System.out.println("Grade\t: " + grade);
         } else if (nilai >= 80) {

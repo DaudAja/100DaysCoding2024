@@ -3,6 +3,7 @@ package hari051;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("==============LIST MENU==============");
@@ -11,7 +12,7 @@ public class Main {
         System.out.println("3. Mie Level 12k/porsi");
         System.out.println("4. Ayam Geprek 10k/porsi");
         System.out.println("5. Bebek Goreng 9k/porsi");
-        
+
         System.out.print("Silahkan Pilih Nomor menu : ");
         int Pilihan = sc.nextInt();
         switch (Pilihan) {

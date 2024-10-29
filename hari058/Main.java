@@ -14,7 +14,8 @@ public class Main {
             rev += kata.charAt(i);
             i--;
         }
-        System.out.println(rev);
+        System.out.println("Sebelum : " + kata);
+        System.out.println("Sesudah : "+ rev);
     }
     
 }

@@ -15,11 +15,8 @@ public class Main {
             i--;
         }
         System.out.println("Sebelum : " + kata);
-<<<<<<< HEAD
+
         System.out.println("Sesudah : "+rev);
-=======
-        System.out.println("Sesudah : "+ rev);
->>>>>>> 7a11284e89f652b534b212f2e9ec12e919f8ba7a
     }
     
 }

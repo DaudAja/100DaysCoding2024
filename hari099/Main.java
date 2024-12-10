@@ -17,16 +17,14 @@ public class Main {
             System.out.println("4. Pembagian (/)");
             System.out.println("5. Exit");
 
-            // Input pilihan operasi
+           
             System.out.print("Masukkan pilihan Anda (1-5): ");
             int pilihan = scanner.nextInt();
 
-            // Input angka
-            // Variabel untuk hasil
+          
             double hasil = 0;
             boolean valid = true;
 
-            // Pemrosesan operasi
             switch (pilihan) {
                 case 1:
                     System.out.print("Masukkan angka pertama: ");
@@ -76,8 +74,6 @@ public class Main {
                     System.out.println("Pilihan tidak valid.");
                     valid = false;
             }
-
-            // Menampilkan hasil jika valid
             if (valid) {
                 System.out.println("Hasil: " + hasil);
             }
